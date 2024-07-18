@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for Stretch Smart project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'TODO: CI/CD testing framework has yet to be configured'"
+  },
+  "author": "Ed Alderman",
+  "license": "ISC"
+}

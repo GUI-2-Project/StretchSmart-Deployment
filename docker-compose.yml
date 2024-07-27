@@ -1,0 +1,23 @@
+services:
+  frontend:
+    build: ./frontend/
+#    command: npm run dev
+    volumes:
+      - ./frontend:/app/
+    ports:
+      - "3000:3000"
+    # run interactive
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+  backend:
+    build: ./backend/
+#    command: npm run dev
+    volumes:
+      - ./backend:/app/
+#    ports:
+#      - "3000:3000"
+    # run interactive
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+#  db: # TODO: set up docker image for Mongo,
+       # & decide if it needs customization

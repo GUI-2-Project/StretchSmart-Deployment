@@ -1,21 +1,26 @@
 import React from 'react'
 
+
+/**
+ * Footer component to be used site-wide.
+ * 
+ * @returns {JSX.Element} A rendered footer element.
+ * @example
+ * // Render footer
+ * <Footer />
+ */
+
 const Footer = () => {
     const styles = {
         footer: {
-            display: "flex",
             background: "#d9d9d9",
-            padding: "0px 10px 0px 10px",
-            justifyContent: "space-between",
-            alignItems: "center",
             minHeight: "50px"   //TODO: revisit
         }
     }
 
-
   return (
     <footer style={styles.footer}>
-        
+        {/* TODO: Add copyright info */}
     </footer>
   )
 }

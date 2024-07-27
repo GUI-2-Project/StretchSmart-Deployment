@@ -1,0 +1,14 @@
+# Because this repo is strictly for deployment
+# The codebase should not be included in it.
+
+# Ignore code in frontend
+frontend/*
+!frontend/.Dockerfile
+
+# Ignore code in backend
+backend/*
+!backend/.Dockerfile
+
+# Ignore code and data in database
+database/*
+!database/.Dockerfile
